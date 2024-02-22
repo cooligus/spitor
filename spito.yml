@@ -1,7 +1,10 @@
 repo_url: https://github.com/cooligus/spitor
 git_prefix: github.com
 identifier: cooligus/spitor
-rules: {}
+rules:
+    info:
+        path: ./rules/info.lua
+        description: ""
+        unsafe: false
 description: ""
 branch: ""
-dependencies: {}
