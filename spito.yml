@@ -2,10 +2,30 @@ repo_url: https://github.com/cooligus/spitor
 git_prefix: github.com
 identifier: cooligus/spitor
 rules:
+    adobe-font:
+        path: rules/adobe-font.lua
+        description: ""
+        unsafe: false
+        environment: false
+        sudo: false
+    hyprland:
+        path: rules/hyprland.lua
+        description: ""
+        unsafe: false
+        environment: false
+        sudo: true
     info:
         path: ./rules/info.lua
         description: ""
         unsafe: false
+        environment: false
+        sudo: false
+    sway:
+        path: rules/sway.lua
+        description: ""
+        unsafe: false
+        environment: false
+        sudo: true
 description: ""
 branch: ""
 dependencies: {}
